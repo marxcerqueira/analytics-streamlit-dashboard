@@ -1,23 +1,21 @@
 import geopandas
-import streamlit as st
-import pandas    as pd
-import numpy     as np
 import folium
 
-from datetime import datetime, time
-
-from streamlit_folium import folium_static
-from folium.plugins   import MarkerCluster
-
+import streamlit      as st
+import pandas         as pd
+import numpy          as np
 import plotly.express as px 
 
+from datetime         import datetime, time
+from streamlit_folium import folium_static
+from folium.plugins   import MarkerCluster
 
 # ------------------------------------------
 # settings
 # ------------------------------------------
 st.set_page_config( layout='wide' )
-
-
+st.title('KC House Prices Dashboard')
+st.text('by Marx Cerqueira') 
 # ------------------------------------------
 # Helper Functions
 # ------------------------------------------
@@ -27,19 +25,16 @@ def get_data( path ):
 
     return data
 
-
 @st.cache( allow_output_mutation=True )
 def get_geofile( url ):
     geofile = geopandas.read_file( url )
 
     return geofile
 
-
 def set_attributes( data ):
     data['price_m2'] = data['price'] / data['sqft_lot'] 
 
     return data
-
 
 def data_overview( data ):
     f_attributes = st.sidebar.multiselect( 'Enter columns', data.columns ) 
@@ -97,14 +92,13 @@ def data_overview( data ):
 
     return None
 
-
 def region_overview( data, geofile ):
     st.title( 'Region Overview' )
 
     c1, c2 = st.beta_columns( ( 1, 1 ) )
     c1.header( 'Portfolio Density' )
 
-    df = data.sample( 100 )
+    df = data.sample( 1000 )
 
     # Base Map - Folium 
     density_map = folium.Map( location=[data['lat'].mean(), data['long'].mean() ],
@@ -152,7 +146,6 @@ def region_overview( data, geofile ):
 
 
     return None
-
 
 def set_commercial( data ):
     st.sidebar.title( 'Commercial Options' )
@@ -214,7 +207,6 @@ def set_commercial( data ):
 
     return None
 
-
 def set_phisical( data ):
     st.sidebar.title( 'Attributes Options' )
     st.title( 'House Attributes' )
@@ -263,10 +255,9 @@ def set_phisical( data ):
 
     return None
 
-
 if __name__ == "__main__":
     # ETL
-    path = 'kc_house_data.csv'
+    path = '/home/marxcerqueira/repos/python-zero-ao-ds/kc_house_data.csv'
     url='https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
 
     # load data
@@ -283,5 +274,3 @@ if __name__ == "__main__":
     set_commercial( data )
     
     set_phisical( data )
-
-
