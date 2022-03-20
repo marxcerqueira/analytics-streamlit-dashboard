@@ -77,7 +77,8 @@ Features | Definition
 |sqft_living15 | The square footage of interior housing living space for the nearest 15 neighbors|
 |sqft_lot15 | The square footage of the land lots of the nearest 15 neighbors|
 </details>
-<details><summary> <!-- Variables created during the project development goes as follow:</summary><br>
+<!-- 
+<details><summary> Variables created during the project development goes as follow:</summary><br>
 
 Variable | Definition
 ------------ | -------------
