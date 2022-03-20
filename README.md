@@ -22,8 +22,6 @@ The [dashboard](https://kc-house-dashboard.herokuapp.com/) must contain:
    * Expected profit from each property.<br><br>
 
 
-**_Dashboard screenshot exemple:_**
-
 <!--<img src="https://user-images.githubusercontent.com/77681284/152690550-fc5b1c2e-6cf6-4bb5-ae7d-0b19b936ac0d.png"/>-->
 
 
@@ -127,7 +125,6 @@ The objective of this project was to create a online dashboard to House Rocket's
 ## References:
 * Dataset House Sales in King County (USA) from [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
 * Features definitions [Kaggle discussion](https://www.kaggle.com/harlfoxem/housesalesprediction/discussion/207885)
-* <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 * Python from Zero to DS lessons on [Youtube](https://www.youtube.com/watch?v=1xXK_z9M6yk&list=PLZlkyCIi8bMprZgBsFopRQMG_Kj1IA1WG&ab_channel=SejaUmDataScientist)
 * Blog [Seja um Data Scientist](https://sejaumdatascientist.com/os-5-projetos-de-data-science-que-fara-o-recrutador-olhar-para-voce/)
 
