@@ -94,7 +94,7 @@ Variable | Definition
 | med_winter | median price from properties available during winter |
 | season_to_sell | in which season property should be sold | -->
 </details>
-<br>
+<br><br>
 
 ## 4. Solution Strategy
 1. Understanding the business problem
@@ -108,6 +108,7 @@ Variable | Definition
 <br>
 
 ## 5. Top 3 Data Insights
+...
 <!-- 1. The number of properties built with basements decreased after the 80s.
 2. Almost 60% of the properties became available during summer/spring.
 3. Properties selected to be bought in a 15km radius from lake correspond to 60% of expected profit. -->
