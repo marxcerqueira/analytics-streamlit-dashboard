@@ -6,11 +6,11 @@ This repository contains codes for the porfolio analysis of a real estate compan
 The objetives of this project are:
 * Perform exploratory data analysis on properties available on dataset.
 * Determine which properties should be purchased according to business criteria.
-* Develop an online [dashboard](https://p001-realestate-insights.herokuapp.com/) that can be acessed by the CEO from a mobile or computer.
+* Develop an online [dashboard](https://kc-house-dashboard.herokuapp.com/) that can be acessed by the CEO from a mobile or computer.
 <br>
 
 ## 1. Business Problem
-* House Rocket is a digital platform whose business model is the purchase and sale of real estate using technology.
+* House Rocket is a Real Estate Flipping Houses business that goes on digital platform to buy and sell houses by using technology.
     
  * My goal is to help the company find the best business opportunities in the real estate market. The CEO of House Rocket would like to maximize the company's revenue by finding good business opportunities.
     
@@ -42,14 +42,9 @@ This results on a 30.0 % gross revenue. -->
 ## 3. Business Assumptions
 * The data available is only from May 2014 to May 2015.
 * Properties with bedrooms disproportional with interior living squarefoot were deleted, assuming it was a input error.
-* Seasons of the year:<br>
-   * Spring starts on March 21st<br>
-   * Summer starts on June 21st<br>
-   * Fall starts on September 23rd<br>
-   * Winter starts on December 21st<br>
 * Business criteria to determine whether a property should be bought are:
-   * Property must have a 'condition' equals or bigger than 3.
-   * Property price must be below or equal the median price on the region (zipcode)
+   * Property must have a 'condition' equal or higher than 4.
+   * Property price must be below or equal the median price based on the zipcode.
 
 <details><summary>The variables on original dataset goes as follows:</summary><br>
 
@@ -104,7 +99,7 @@ Variable | Definition
 5. Feature Engineering
 6. Exploratory Data Analysis
 7. Insights Conclusion
-8. Dashboard deploy on [Heroku](https://kc-house-dashboard.herokuapp.com/)
+8. Dashboard deploy on [Heroku](https://kc-house-dashboard.herokuapp.com/) 
 <br>
 
 ## 5. Top 3 Data Insights
