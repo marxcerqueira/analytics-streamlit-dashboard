@@ -36,8 +36,8 @@ The [dashboard](https://kc-house-dashboard.herokuapp.com/) must contain:
 
 From all the 21,421 houses available in the dataset and based on business criteria, where we considered houses that should be bought only with great conditions (conditions 4 and 5) and low prices, **3,826** houses should be bought by House Rocket resulting on a US$451M profit.<br>
 
-Maximum Value Invested: US$1,506,297,223.00<br>
-Maximum Value Returned: US$1,958,186,389.90<br>
+Maximum Invested Amount: US$1,506,297,223.00<br>
+Maximum Revenue: US$1,958,186,389.90<br>
 Maximum Expected Profit: US$451,889,166.90<br>
 
 This results on a 30.0 % gross revenue.
