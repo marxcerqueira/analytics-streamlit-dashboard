@@ -1,10 +1,12 @@
 # House Price Insights
 
+ <p align="center"><img width="40%" alt="drawing" src="/house_rocket/house-rocket-logo.jpg"></p>
+
 This repository contains codes for the porfolio analysis of a real estate company. <br>
 
-#### House Price Insights
+#### Real Estate Flipping Houses - House Rocket
 The objetives of this project are:
-* Perform exploratory data analysis on properties available on dataset.
+* Perform exploratory data analysis on properties available on the dataset.
 * Determine which properties should be purchased according to business criteria.
 * Develop an online [dashboard](https://kc-house-dashboard.herokuapp.com/) that can be acessed by the CEO from a mobile or computer.
 <br>
@@ -31,12 +33,14 @@ The [dashboard](https://kc-house-dashboard.herokuapp.com/) must contain:
 <img src="https://user-images.githubusercontent.com/77681284/152690450-089c6833-edbe-4eb2-bfa6-261973611e3a.png" alt="dashboard screenshot" width="300"  align="right"/> -->
 
 ## 2. Business Results
-<!--There are 21,436 available properties. Based on business criteria, 10,707 should be bought by House Rocket resulting on a US$1,2B profit.<br>
-Maximum Value Invested: US$4,163,721,410.00<br>
-Maximum Value Returned: US$5,412,837,833.00<br>
-Maximum Expected Profit: US$1,249,116,423.00<br> 
 
-This results on a 30.0 % gross revenue. -->
+From all the 21,421 houses available in the dataset and based on business criteria, where we considered houses that should be bought only with great conditions (conditions 4 and 5) and low prices, **3,826** houses should be bought by House Rocket resulting on a US$451M profit.<br>
+
+Maximum Value Invested: US$1,506,297,223.00<br>
+Maximum Value Returned: US$1,958,186,389.90<br>
+Maximum Expected Profit: US$451,889,166.90<br>
+
+This results on a 30.0 % gross revenue.
 <br><br>
 
 ## 3. Business Assumptions
@@ -72,23 +76,18 @@ Features | Definition
 |sqft_living15 | The square footage of interior housing living space for the nearest 15 neighbors|
 |sqft_lot15 | The square footage of the land lots of the nearest 15 neighbors|
 </details>
-<!-- 
+
 <details><summary> Variables created during the project development goes as follow:</summary><br>
 
 Variable | Definition
 ------------ | -------------
 | decision | whether a property should be bought |
 | median_price_zipcode | median price of zipcode region |
-| selling_price_suggestion | 30% more on buying price, if property should be bought |
-| expected_profit | difference between buying price and selling price suggestion  |
+| sale_price | 30% more on buying price, if property should be bought |
+| profit | difference between buying price and selling price suggestion  |
 | dist_fromlake | distance from the center of Evergreen Point Floating Bridge |
-| season | season property became available |
-| med_autumn | median price from properties available during autumn  |
-| med_spring | median price from properties available during spring |
-| med_summer | median price from properties available during summer |
-| med_winter | median price from properties available during winter |
-| season_to_sell | in which season property should be sold | 
-</details>-->
+
+</details>
 <br>
 
 ## 4. Solution Strategy
@@ -102,23 +101,28 @@ Variable | Definition
 8. Dashboard deploy on [Heroku](https://kc-house-dashboard.herokuapp.com/) 
 <br>
 
-## 5. Top 3 Data Insights
+## 5. Top 4 Data Insights
 
-...
-<!-- 1. The number of properties built with basements decreased after the 80s.
-2. Almost 60% of the properties became available during summer/spring.
-3. Properties selected to be bought in a 15km radius from lake correspond to 60% of expected profit. -->
+1. Houses prices with conditions 4 and 5 correspond to 48,45% of the total sum of the base prices.
+
+2. 50% of the houses that should be bought are located within 15km radius from the lake, which correspond to 1888 houses.
+
+3. Average house prices decrease as distance from lake increases 
+
+4. Houses that were suggested to be bought within 15km radius from lake correspond to  63.23% of expected profit.
 <br>
 
 ## 6. Conclusion
-The objective of this project was to create a online dashboard to House Rocket's CEO. Deploying the dashboard on Heroku platforms provided the CEO acess from anywhere facilitating data visualization and business decisions.
+The objective of this project was to create a online dashboard to House Rocket's CEO. Deploying the dashboard on Heroku platforms provided the CEO access from anywhere and improve business decisions and insights.
 <br><br>
 
 ## 7. Next Steps
 * Determine which season of the year would be the best to execute a sale.
 * Get more address data to fill NAs.
 * Expand this methodology to other regions that House Rocket operates.
-* Apply machine learning algorithms to make prices predictions
+* Cross the available data with macroeconomics data such as GDP, Inflation Rate, Unemployment Rate, etc.
+* Cross the available data with weather conditions data.
+* Apply machine learning algorithms to predict prices.
 <br>
 
 ---
