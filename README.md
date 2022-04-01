@@ -8,7 +8,7 @@ This repository contains codes for the porfolio analysis of a real estate compan
 The objetives of this project are:
 * Perform exploratory data analysis on properties available on the dataset.
 * Determine which properties should be purchased according to business criteria.
-* Develop an online [dashboard](https://kc-house-dashboard.herokuapp.com/) that can be acessed by the CEO from a mobile or computer.
+* Develop an online [dashboard](https://kc-house-dashboard2.herokuapp.com/) that can be acessed by the CEO from a mobile or computer.
 <br>
 
 ## 1. Business Problem
@@ -18,7 +18,7 @@ The objetives of this project are:
     
  * Their main strategy is to buy good homes in great locations at low prices and then resell them later at higher prices. The greater the difference between buying and selling, the greater the company's profit and therefore the greater its revenue.<br>
 
-The [dashboard](https://kc-house-dashboard.herokuapp.com/) must contain:
+The [dashboard](https://kc-house-dashboard2.herokuapp.com/) must contain:
 
    * Which properties the company should buy.
    * A map view with properties available.
