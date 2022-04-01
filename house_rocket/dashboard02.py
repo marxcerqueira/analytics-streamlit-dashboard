@@ -30,7 +30,7 @@ t1, t2 = st.columns((0.07,1))
 # image
 with t1:
     photo = Image.open('house-rocket-logo.jpg')
-    st.image(photo, width=200)
+    st.image(photo, width=150)
 
 # headers
 with t2:
