@@ -98,7 +98,7 @@ Variable | Definition
 5. Feature Engineering
 6. Exploratory Data Analysis
 7. Insights Conclusion
-8. Dashboard deploy on [Heroku](https://kc-house-dashboard.herokuapp.com/) 
+8. Dashboard deploy on [Heroku](https://kc-house-dashboard2.herokuapp.com/) 
 <br>
 
 ## 5. Top 4 Data Insights
