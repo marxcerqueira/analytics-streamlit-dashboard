@@ -1,4 +1,4 @@
-# House Price Insights
+# Real Estate Flipping Houses - House Rocket
 
  <p align="center"><img width="40%" alt="drawing" src="/house_rocket/house-rocket-logo.jpg"></p>
 
